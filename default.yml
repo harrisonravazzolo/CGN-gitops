@@ -16,7 +16,11 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: 🇩🇪🥨🍺
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/ff67d4ca-d2a2-4193-acdb-3c9cea4fdb94
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
